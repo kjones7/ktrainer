@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using ktrainer.Models;
+using Ktrainer.Models;
 
-namespace ktrainer.Data
+namespace Ktrainer.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
@@ -13,6 +13,6 @@ namespace ktrainer.Data
             : base(options)
         {
         }
-        public DbSet<ktrainer.Models.Routine> Routine { get; set; }
+        public DbSet<Ktrainer.Models.Routine> Routine { get; set; }
     }
 }

@@ -5,16 +5,16 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using ktrainer.Data;
-using ktrainer.Models;
+using Ktrainer.Data;
+using Ktrainer.Models;
 
-namespace ktrainer.Pages.Routines
+namespace Ktrainer.Pages.Routines
 {
     public class CreateModel : PageModel
     {
-        private readonly ktrainer.Data.ApplicationDbContext _context;
+        private readonly Ktrainer.Data.ApplicationDbContext _context;
 
-        public CreateModel(ktrainer.Data.ApplicationDbContext context)
+        public CreateModel(Ktrainer.Data.ApplicationDbContext context)
         {
             _context = context;
         }

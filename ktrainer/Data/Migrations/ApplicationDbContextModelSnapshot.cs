@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ktrainer.Data;
+using Ktrainer.Data;
 
-namespace ktrainer.Data.Migrations
+namespace Ktrainer.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot
@@ -219,7 +219,7 @@ namespace ktrainer.Data.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("ktrainer.Models.Routine", b =>
+            modelBuilder.Entity("Ktrainer.Models.Routine", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()

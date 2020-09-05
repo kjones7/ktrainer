@@ -1,4 +1,4 @@
-﻿namespace ktrainer.Models
+﻿namespace Ktrainer.Models
 {
     public class Routine
     {

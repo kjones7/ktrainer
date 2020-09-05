@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace ktrainer.Data.Migrations
+namespace Ktrainer.Data.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {

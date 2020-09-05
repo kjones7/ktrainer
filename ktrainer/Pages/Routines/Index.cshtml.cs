@@ -5,16 +5,16 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
-using ktrainer.Data;
-using ktrainer.Models;
+using Ktrainer.Data;
+using Ktrainer.Models;
 
-namespace ktrainer.Pages.Routines
+namespace Ktrainer.Pages.Routines
 {
     public class IndexModel : PageModel
     {
-        private readonly ktrainer.Data.ApplicationDbContext _context;
+        private readonly Ktrainer.Data.ApplicationDbContext _context;
 
-        public IndexModel(ktrainer.Data.ApplicationDbContext context)
+        public IndexModel(Ktrainer.Data.ApplicationDbContext context)
         {
             _context = context;
         }

@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace ktrainer.Data.Migrations
+namespace Ktrainer.Data.Migrations
 {
     public partial class InitialRoutineCreate : Migration
     {

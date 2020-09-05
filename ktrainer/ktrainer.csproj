@@ -3,6 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UserSecretsId>aspnet-ktrainer-6EEBE6A2-97E8-4D07-B711-DADD41D5B335</UserSecretsId>
+    <AssemblyName>Ktrainer</AssemblyName>
+    <RootNamespace>Ktrainer</RootNamespace>
   </PropertyGroup>
 
 

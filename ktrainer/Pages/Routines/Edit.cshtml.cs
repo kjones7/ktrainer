@@ -6,16 +6,16 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using ktrainer.Data;
-using ktrainer.Models;
+using Ktrainer.Data;
+using Ktrainer.Models;
 
-namespace ktrainer.Pages.Routines
+namespace Ktrainer.Pages.Routines
 {
     public class EditModel : PageModel
     {
-        private readonly ktrainer.Data.ApplicationDbContext _context;
+        private readonly Ktrainer.Data.ApplicationDbContext _context;
 
-        public EditModel(ktrainer.Data.ApplicationDbContext context)
+        public EditModel(Ktrainer.Data.ApplicationDbContext context)
         {
             _context = context;
         }
