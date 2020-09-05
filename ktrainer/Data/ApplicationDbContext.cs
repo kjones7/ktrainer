@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using ktrainer.Models;
 
 namespace ktrainer.Data
 {
@@ -12,5 +13,6 @@ namespace ktrainer.Data
             : base(options)
         {
         }
+        public DbSet<ktrainer.Models.Routine> Routine { get; set; }
     }
 }
